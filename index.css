@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.marquee{
+    margin-left: 200px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: #f4f4f4;
+    padding: 20px;
+    background-color: black;
+    
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    color: white;
+    
+    
+    
+}
+
+.logo img {
+    width: 100px; /* Adjust logo size */
+    height: 100px; /* Adjust logo size */
+    margin-right: 10px;
+}
+
+nav {
+    background-color: #333;
+    
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 30px;
+    
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 3px 3px;
+    border-radius: 3px;
+}
+
+nav ul li a:hover {
+    background-color: #434040;
+}
+
+section {
+    padding: 20px;
+}
+
+section h2 {
+    margin-top: 20px;
+    text-align: center;
+
+}
+.content-columns {
+    display: flex; /* Use flexbox for equal spacing */
+    justify-content: space-between; /* Distribute columns evenly */
+    margin-top: 20px; /* Space above the columns */
+}
+
+.column {
+    background-color: #fff; /* White background for each column */
+    padding: 15px; /* Padding inside each column */
+    
+    border-radius: 5px; /* Rounded corners */
+    flex: 1; /* Each column takes equal width */
+    margin: 0 10px; /* Margin between columns */
+}
+
+.column:first-child {
+    margin-left: 0; /* Remove left margin from the first column */
+}
+
+.column:last-child {
+    margin-right: 0; /* Remove right margin from the last column */
+}
+#get_started h1{
+    margin-left: 30px;
+}
+#circuits {
+    display: flex; /* Use flexbox for equal spacing */
+    justify-content: space-between; /* Distribute columns evenly */
+    margin-top: 20px; /* Space above the columns */
+}
+
+.cc {
+    background-color: #fff; /* White background for each column */
+    padding: 15px; /* Padding inside each column */
+    
+    border-radius: 5px; /* Rounded corners */
+    flex: 1; /* Each column takes equal width */
+    margin: 0 10px; /* Margin between columns */
+}
+
+.cc:first-child {
+    margin-left: 0; /* Remove left margin from the first column */
+}
+
+.cc:last-child {
+    margin-right: 0; /* Remove right margin from the last column */
+}

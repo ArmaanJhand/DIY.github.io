@@ -1,0 +1,174 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    
+    color: rgb(255, 255, 255);
+    
+    padding: 50px;
+    text-align: center;
+    background-size: cover;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQXkFWO4yYxFnl-ZZFYjQvQK59aquKrgelSw&s);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+main {
+    padding: 20px;
+}
+
+.project {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 20px 0;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    
+}
+
+.project h2 {
+    color: #35424a;
+}
+
+.project img {
+    width: 300px; /* Responsive image */
+    height: 300px;
+    border-radius: 5px;
+   
+
+    
+}
+.project img:hover{
+    transform: scale(1.05);
+}
+nav a{
+    padding-left: 3%;
+    text-decoration: none;
+    color: black;
+    
+}
+nav a:hover{
+    text-decoration: underline;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    
+    color: rgb(255, 255, 255);
+    
+    padding: 50px;
+    text-align: center;
+    background-size: cover;
+    background-image: url(https://assets.skyfilabs.com/images/blog/list-of-latest-electronic-circuit-projects.webp);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+main {
+    padding: 20px;
+}
+
+.project {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 20px 0;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    
+}
+
+.project h2 {
+    color: #35424a;
+}
+
+.project img {
+    width: 300px; /* Responsive image */
+    height: 300px;
+    border-radius: 5px;
+   
+
+    
+}
+.project img:hover{
+    transform: scale(1.05);
+}
+nav a{
+    padding-left: 3%;
+    text-decoration: none;
+    color: black;
+    
+}
+nav a:hover{
+    text-decoration: underline;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    
+    color: rgb(255, 255, 255);
+    
+    padding: 50px;
+    text-align: center;
+    background-size: cover;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRry_tDjC_lXOloVPlZ2YmQ2FD2mB6kMoIX_w&s);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+main {
+    padding: 20px;
+}
+
+.project {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 20px 0;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    
+}
+
+.project h2 {
+    color: #35424a;
+}
+
+.project img {
+    width: 300px; /* Responsive image */
+    height: 300px;
+    border-radius: 5px;
+   
+
+    
+}
+.project img:hover{
+    transform: scale(1.05);
+}
+nav a{
+    padding-left: 3%;
+    text-decoration: none;
+    color: black;
+    
+}
+nav a:hover{
+    text-decoration: underline;
+}
+
+
+
+

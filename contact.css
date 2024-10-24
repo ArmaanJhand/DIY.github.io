@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.marquee {
+    padding: 10px;
+    background-color: #444; /* Dark background for contrast */
+    color: white;
+    overflow: hidden;
+    text-align: center; /* Center the marquee text */
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Space between logo and marquee */
+    background-color: black;
+    padding: 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.logo img {
+    width: 100px; /* Adjust logo size */
+    height: 100px; /* Adjust logo size */
+    margin-right: 10px;
+}
+
+nav {
+    background-color: #333;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 20px; /* Adjusted margin for better spacing */
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px; /* Increased padding for better click area */
+    border-radius: 3px;
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+nav ul li a:hover {
+    background-color: #434040;
+}
+
+main {
+    max-width: 1200px; /* Limit width for larger screens */
+    margin: 0 auto; /* Center on the page */
+    padding: 0 20px; /* Padding on the sides */
+}
+
+section {
+    padding: 20px;
+}
+
+section h2 {
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Contact Form Styles */
+.contact-form{
+    background-color: #fff; /* White background for the form */
+    padding: 20px; /* Padding inside the form */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Light shadow */
+    max-width: 600px; /* Limit width */
+    margin: 20px auto; /* Center */
+}
+.contact-form {
+    background-color: #fff; /* White background for the form */
+    padding: 20px; /* Padding inside the form */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Light shadow */
+    max-width: 600px; /* Limit width */
+    margin: 20px auto; /* Center the form */
+}
+
+.contact-form label {
+    display: block; /* Block display for labels */
+    margin: 10px 0 5px; /* Margin around labels */
+}
+
+.contact-form input, 
+.contact-form textarea {
+    width: calc(100% - 20px); /* Full width minus padding */
+    padding: 10px; /* Padding inside input fields */
+    border: 1px solid #ccc; /* Border */
+    border-radius: 4px; /* Rounded corners */
+    margin-bottom: 15px; /* Space below each input */
+}
+
+.contact-form button {
+    background-color: #333; /* Dark background */
+    color: white; /* White text */
+    padding: 10px 15px; /* Padding */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor */
+    width: 100%; /* Full width */
+}
+
+.contact-form button:hover {
+    background-color: #434040; /* Lighter background on hover */
+}
